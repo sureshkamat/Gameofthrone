@@ -40,21 +40,21 @@ function App() {
     .catch((err)=>console.log(err))
   }, [page,gender,culture]);
 
-  // useEffect(() => {
-  //   const namesToGuess = characters
-  //     .map(character => character.name.split(' ')[0])
-  //     .filter(name => name !== '' && !agifyAges[name]);
+  useEffect(() => {
+    const namesToGuess = characters
+      .map(character => character.name.split(' ')[0])
+      .filter(name => name !== '' && !agifyAges[name]);
 
-  //   if (namesToGuess.length > 0) {
-  //     Promise.all(
-  //       namesToGuess.map(name =>
-  //         fetch(`https://api.agify.io?name=${name}`)
-  //           .then(response => response.json())
-  //           .then(data => setAgifyAges(prevAges => ({ ...prevAges, [name]: data.age })))
-  //       )
-  //     );
-  //   }
-  // }, [characters, agifyAges]);
+    if (namesToGuess.length > 0) {
+      Promise.all(
+        namesToGuess.map(name =>
+          fetch(`https://api.agify.io?name=${name}`)
+            .then(response => response.json())
+            .then(data => setAgifyAges(prevAges => ({ ...prevAges, [name]: data.age })))
+        )
+      );
+    }
+  }, [characters, agifyAges]);
 
   const handleSort = column => {
     if (column === sortColumn) {
@@ -123,7 +123,7 @@ function App() {
               <Td>{character.name}</Td>
               <Td>{character.gender}</Td>
               <Td>{character.culture}</Td>
-              {/* <Td>{agifyAges[character.name.split(' ')[0]] || 'Unknown'}</Td> */}
+              <Td>{agifyAges[character.name.split(' ')[0]] || 'Unknown'}</Td>
             </Tr>
           ))}
     </Tbody>
