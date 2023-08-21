@@ -22,7 +22,9 @@ function App() {
   const [filterText, setFilterText] = useState('');
   const [sortColumn, setSortColumn] = useState('name');
   const [sortOrder, setSortOrder] = useState('asc');
+  const [agifyAges, setAgifyAges] = useState({});
 
+  
   const [page,setPage]=useState(1);
   const [gender,setGender]=useState();
   const [culture,setCulture]=useState();
@@ -81,13 +83,7 @@ function App() {
   return (
     <Box w='80%' m='auto' className="App">
       <Center><Heading >Game of Thrones Characters</Heading></Center>
-      {/* <input
-        type="text"
-        placeholder="Filter by name, gender, culture..."
-        value={filterText}
-        onChange={e => setFilterText(e.target.value)}
-      /> */}
-        
+
      <Flex mt={10}>
       <Input type='text' placeholder="Filter by name, gender, culture on Columns..." value={filterText}  onChange={e => setFilterText(e.target.value)}/>
       <Select placeholder='Filter By Gender' onChange={(e)=>setGender(e.target.value)}>
@@ -110,6 +106,7 @@ function App() {
         <option value="First Men">First Men</option>
       </Select>
      </Flex>
+
   <TableContainer mt={10}>
   <Table variant='simple'>
     <Thead>
