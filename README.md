@@ -51,24 +51,25 @@ npm start
 <p>The application will start, and you can access it by navigating to http://localhost:3000 in your web browser.
 </p>
 
-Features
-Character Display
-The application fetches character data from the "An API of Ice and Fire" and displays it in a table format. Each row represents a character, showing their name, gender, culture, and an estimated age based on the Agify API.
-
-Sorting
+<h1>Features</h1>
+<h2>Character Display </h2>
+<p>The application fetches character data from the "An API of Ice and Fire" and displays it in a table format. Each row represents a character, showing their name, gender, culture, and an estimated age based on the Agify API.
+</p>
+<h2>Sorting</h2>
+<p>
 Users can sort the character data based on different columns, including name, gender, and culture. Clicking on a column header will toggle the sorting order between ascending and descending.
+</p>
 
-Filtering
-The application provides a search functionality that allows users to filter characters based on their name, gender, or culture. As users type into the search input, the character list dynamically updates to show only the matching results.
-
-Age Guessing
+<h2>Filtering </h2>
+<p>The application provides a search functionality that allows users to filter characters based on their name, gender, or culture. As users type into the search input, the character list dynamically updates to show only the matching results.
+</p>
+<h2>Age Guessing </h2>
+<p>
 The Agify API is integrated to estimate character ages based on their first names. The estimated ages are displayed alongside the character information in the table.
+</p>
 
-Technologies Used
+<h1>Technologies Used </h1>
 ReactJS
 Fetch API
 Agify API
 CSS (styling based on chosen CSS framework)
-Node.js (for package management)
-Contributing
-Contributions are welcome! If you have any suggestions, bug reports, or improvements, please open an issue or submit a pull request on the GitHub repository.
