@@ -38,19 +38,18 @@
 
 
 
-
-Getting Started
-Installation
-Clone the repository to your local machine:   git clone <repository-url>
-Navigate to the project directory:   cd game-of-thrones-character-viewer
-Install the required dependencies:   npm install
-Running the Application
-To run the application locally, execute the following command:
-
-bash
+<h1>Getting Started </h1>
+<h2>Installation</h2>
+<p>Clone the repository to your local machine: git clone https://github.com/sureshkamat/Gameofthrone.git </p>  
+ <p>Navigate to the project directory:   cd game-of-thrones-app </p>
+ <p>Install the required dependencies:   npm install </p>
+ <h2>Running the Application</h2>
+<p>To run the application locally, execute the following command:</p>
+<p>
 npm start
-The application will start, and you can access it by navigating to http://localhost:3000 in your web browser.
-
+</p>
+<p>The application will start, and you can access it by navigating to http://localhost:3000 in your web browser.
+</p>
 
 Features
 Character Display
