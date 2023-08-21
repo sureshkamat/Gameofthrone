@@ -4,9 +4,12 @@
 </p>
 
 <h2>Table of Contents </h2>
-<h3>Getting Started</h3>
-<h2>Installation</h2>
-<h2>Running the Application</h2>
+
+<ul>Getting Started
+   <li>Installation</li>
+    <li>Running the Application</li>
+</ul>
+
 Features
 Character Display
 Sorting
