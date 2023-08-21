@@ -1,11 +1,12 @@
 # Gameofthrone
-Game of Thrones Character Viewer
-The "Game of Thrones Character Viewer" is a ReactJS application that allows users to view and interact with character data from the "Game of Thrones" universe. The application fetches data from the "An API of Ice and Fire" and leverages the Agify API to guess character ages based on their first names. Users can sort, filter, and paginate through the character data, enhancing their exploration of the fictional world.
+<h1>Game of Thrones Character Viewer</h1>
+<p>The "Game of Thrones Character Viewer" is a ReactJS application that allows users to view and interact with character data from the "Game of Thrones" universe. The application fetches data from the "An API of Ice and Fire" and leverages the Agify API to guess character ages based on their first names. Users can sort, filter, and paginate through the character data, enhancing their exploration of the fictional world.
+</p>
 
-Table of Contents
-Getting Started
-Installation
-Running the Application
+<h2>Table of Contents </h2>
+<h3>Getting Started</h3>
+<h2>Installation</h2>
+<h2>Running the Application</h2>
 Features
 Character Display
 Sorting
