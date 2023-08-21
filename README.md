@@ -5,19 +5,39 @@
 
 <h2>Table of Contents </h2>
 
-<ul>Getting Started
-   <li>Installation</li>
-    <li>Running the Application</li>
-</ul>
 
-Features
-Character Display
-Sorting
-Filtering
-Age Guessing
-Technologies Used
-Contributing
-License
+<ol>
+  <li>Getting Started
+    <ol>
+      <li>Installation</li>
+      <li>Running the Application</li>
+    </ol>
+  </li>
+  <li>Features
+    <ol>
+      <li>Character Display</li>
+      <li>Sorting</li>
+      <li>Filtering</li>
+      <li>Age Guessing</li>
+    </ol>
+  </li>
+  <li>Technologies Used
+    <ol>
+      <li>React Js</li>
+      <li>Axios</li>
+      <li>Chakra UI</li>
+          </ol>
+  </li>
+</ol>
+
+
+
+
+
+
+
+
+
 
 Getting Started
 Installation
